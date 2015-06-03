@@ -27,7 +27,7 @@ To import this project into Studio:
 
 Studio creates a new project.
 
-## Configuring the Arrow Application
+## Configure the Arrow Application
 
 Before running BookService, you need to setup the MongoHQ backend:
 
@@ -40,7 +40,7 @@ After the MongoHQ backend is setup, open the `conf/default.js` file and edit the
   1. Modify the `connectors['appc.mongo'].url` variable to point
      to your Mongo URI.  You can find the Mongo URI in the Admin console of your
      database.  It looks similar to:
-     `mongodb://foobar:foobar@dharma.mongohq.com:<port_number>/<db_name>`
+     `mongodb://<username>:<password>@dharma.mongohq.com:<port_number>/<db_name>`
      Be sure to add the collection name to the end of the URI.
   2. To access the Arrow admin console, add your Appcelerator Platform login to the
      `admin.validEmails` array.

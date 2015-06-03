@@ -1,0 +1,16 @@
+{
+  "type": "api",
+  "group": "arrow",
+  "dependencies": {
+    "connector/appc.mongo": "^1.0.41"
+  },
+  "cloud": {
+    "container": "Dev",
+    "min": 1,
+    "max": 1,
+    "maxqueuesize": 50,
+    "environment": {},
+    "cname": null,
+    "certificate": null
+  }
+}

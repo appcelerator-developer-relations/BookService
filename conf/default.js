@@ -22,7 +22,7 @@ module.exports = {
 	// apikey_production: '<APIKEY_PRODUCTION>',
 	// development key, this is the key that will be required when you are testing non-production (such as locally)
 	// apikey_development: '<APIKEY_DEVELOPMENT>',
-    apikey: 'abcdef1234567890',
+	apikey: 'abcdef1234567890',
 
 	// by default the authentication strategy is 'basic' which will use HTTP Basic Authorization where the
 	// usename is the key and the password is blank.  the other option is 'apikey' where the value of the
@@ -77,7 +77,7 @@ module.exports = {
 	// your connector configuration goes here
 	connectors: {
 		'appc.mongo': {
-			'url': 'mongodb://<username>:<password>@dharma.mongohq.com:<port>/<database_name>/<collection_name>'
+			'url': 'mongodb://<username>:<password>@dharma.mongohq.com:<port>/<database_name>/<collection_name>/'
 		}
 	}
 };

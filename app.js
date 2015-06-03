@@ -1,9 +1,14 @@
-// initialize app
-function start(app, express) {
+var Arrow = require('arrow'),
+	server = new Arrow();
 
-}
+// lifecycle examples
+server.on('starting', function () {
+	server.logger.debug('server is starting!');
+});
 
-// release resources
-function stop() {
-	
-}
+server.on('started', function () {
+	server.logger.debug('server started!');
+});
+
+// start the server
+server.start();
